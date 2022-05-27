@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<div class="topnav" id="myTopnav">
+  <a class="link" href="home.html">home</a> 
+  <a class="link" href="news.html">news</a> 
+  <a class="link" href="movies.html">movies</a> 
+  <a class="link" href="music.html">music</a> 
+  <a class="link active" href="login.html">log in </a>
+   </div>
+<h1 id="logintitle">Read reviews. Write reviews. Get high.</h1>
+<form action="/action_page.php" method="post">
+    <div id = "box">
+        <h2 id = "loghead">Log in</h2>
+        <div id = "login">
+            <div id="toplogin">
+                <label class="lab" for="uname"><b>Username</b></label>
+                <span id="signuplink">No account yet?<a href="#signup"><b> Sign up</b></a></span>
+            </div>
+            <input type="text" placeholder="" name="uname" required>
+            <br>
+            <label class="lab" for="psw"><b>Password</b></label>
+            <br>
+            <input type="password" placeholder="" name="psw" required>
+            
+            <br>
+            <input id="remember" type="checkbox" checked="checked" name="remember"> Remember
+            <br>
+            <button id="loginbutton" type="submit">Log in</button>
+        </div>
+        <div class="logother">
+            <br>
+            <a class="passw" href="#forgotpassword"><b>Forgot Password?</b></a>
+        </div>
+    </div>
+</form>
+
+<p id="demo"></p>
+<script src="index.js"></script>
+</body>
+</html>
