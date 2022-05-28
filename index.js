@@ -7,3 +7,12 @@ var header = document.getElementById("myTopnav");
     this.className += " active";
     });
   } 
+
+  function makeResponsive() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
