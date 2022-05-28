@@ -168,59 +168,9 @@ input[type=text], input[type=password] {
 input[type=text], input[type=password]{
   width:80%
 }
-}
-#signuplink a:link {
-  color:#709b40;
-  text-decoration:none
-}
-#signuplink a:visited {
-  color:#709b40;
-  text-decoration:none
-}
-input[type=text], input[type=password] {
-  width: 75%;
-  padding: 12px 10px;
-  margin-top: 0px;
-  margin-left: 48px;
-  margin-bottom: 30px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-.lab{
-  color:#333;
-  font-size: 15px;
-  margin-left: 48px;
-}
-#loginbutton{
-  background-color:#709b40;
-  color: white;
-  border: none;
-  cursor: pointer;
-  height: 50px; 
-  width: 80%;   
+#loginbutton{  
   position:relative; 
-  margin: -192px; 
+  margin: 0px; 
   margin-bottom: -5px;
-  left:50%;
-  border-radius: 25px;
-  font-size: 25px;
-  font-family: Futurabook;
 }
-#loginbutton:hover{
-  background-color:#638839;
-  color: rgb(241, 241, 241);
-}
-
-.passw {
- position:relative;
- left:38%;
- text-decoration: none;
- color:#333;
- font-size: 15px;
-}
-
-#remember{
-  margin-top:25px;
-  margin-bottom: 30px;
-  margin-left: 70px;
 }
